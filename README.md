@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=vincent-ai-core-oficial&label=VISUALIZAÇÕES&color=FFD700&label_color=0B192C&style=for-the-badge" alt="Contador de Visitas" />
+  <img src="https://count.getloli.com/get/@vincent-ai-core?theme=rule34" alt="Visitas ao Repositório" />
+</div>
+
+<div align="center">
+  <img src="./recursos/banner.png" alt="WhatsApp Bot Banner" width="100%">
 </div>
 
 # 🤖 Vincent AI Core
@@ -9,10 +13,6 @@
   <img src="https://img.shields.io/badge/Google_Cloud-Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/WhatsApp-Connected-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vincent-ai-core-oficial&label=VISUALIZAÇÕES&color=FFD700&label_color=0B192C&style=for-the-badge" alt="Contador de Visitas" />
 </p>
 
 > Bot WhatsApp com IA via Groq (texto, visão e transcrição), multi-key via `.env`, rate limit por chave e dashboard local.
