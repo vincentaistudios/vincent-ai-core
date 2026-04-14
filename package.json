@@ -1,0 +1,79 @@
+{
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "awesome-phonenumber": "^6.1.0",
+    "axios": "^1.15.0",
+    "cfonts": "^2.10.0",
+    "chalk": "^4.1.2",
+    "colors": "^1.4.0",
+    "encodeurl": "^1.0.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "mammoth": "^1.7.2",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.40",
+    "node-cache": "^5.1.2",
+    "node-webpmux": "^3.2.1",
+    "pdf-parse": "^1.1.1",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "name": "whatsapp-bot-baileys",
+  "type": "module",
+  "description": "Bot WhatsApp baseado em Baileys",
+  "version": "0.0.1",
+  "main": "fontes/nucleo/manipulador_mensagens.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/nucleo/conexao.js --qr",
+    "start": "tsc && node dist/nucleo/conexao.js",
+    "start:qr": "tsc && node dist/nucleo/conexao.js --qr",
+    "start:code": "tsc && node dist/nucleo/conexao.js --code",
+    "start:node": "node dist/nucleo/conexao.js",
+    "start:linux": "sh banco_de_dados/start.sh",
+    "pm2:start": "pm2 start dist/nucleo/conexao.js --name whatsapp-bot",
+    "pm2:start:qr": "pm2 start dist/nucleo/conexao.js --name whatsapp-bot -- --qr",
+    "pm2:start:code": "pm2 start dist/nucleo/conexao.js --name whatsapp-bot -- --code",
+    "pm2:logs": "pm2 logs whatsapp-bot",
+    "pm2:stop": "pm2 stop whatsapp-bot",
+    "pm2:restart": "pm2 restart whatsapp-bot",
+    "pm2:delete": "pm2 delete whatsapp-bot",
+    "lock:watch": "node banco_de_dados/scripts/monitorar-lock.js",
+    "session:clean": "node banco_de_dados/scripts/limpar-sessao.js",
+    "lint": "eslint .",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "test": "node --test banco_de_dados/testes/*.test.js",
+    "preinstall": "node banco_de_dados/scripts/verificar-env.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "bot-baileys"
+  ],
+  "author": "Vincent AI Studios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentaistudios/vincent-ai-core/issues"
+  },
+  "homepage": "https://github.com/vincentaistudios/vincent-ai-core#readme",
+  "devDependencies": {
+    "@types/colors": "^1.1.3",
+    "@types/fluent-ffmpeg": "^2.1.28",
+    "@types/mime-types": "^3.0.1",
+    "@types/moment-timezone": "^0.5.13",
+    "@types/node": "^25.6.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/qrcode-terminal": "^0.12.2",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}

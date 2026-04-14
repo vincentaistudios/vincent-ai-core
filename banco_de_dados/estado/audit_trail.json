@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:22.834Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A58D2CDD8EBBE5ADDDE9D14AB655343B",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:24.683Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A5E73C438B4BD329CE118677E7166A25",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:32.926Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A5844858E474AC745CB90B7EBAE3FC03",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:33.272Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A56DA065213EE5BB72DF72702CF10DC6",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:33.284Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A550DD5FF13040F568B1431D89CA4335",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:33.318Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A5B0DDCC52736A1526654D4CA13D19D7",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:37.776Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A5BD97D6317D33AB56E3E7F7D675F588",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:36:38.991Z",
+    "meta": {
+      "chatId": "557592652222@s.whatsapp.net",
+      "senderId": "557592652222@s.whatsapp.net",
+      "isGroup": false,
+      "messageId": "A5C5AD0380DF0EFEF2D32C3F22D57990",
+      "messageType": "protocolMessage"
+    },
+    "payload": {
+      "hasMedia": false,
+      "isCmd": false,
+      "textHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "kind": "inbound",
+    "at": "2026-04-07T20:38:37.620Z",
+    "meta": {
+      "chatId": "status@broadcast",
+      "senderId": "status@broadcast",
+      "isGroup": false,
+      "messageId": "3AE6B280324DFCFC843D",
+      "messageType": "videoMessage"
+    },
+    "payload": {
+      "hasMedia": true,
+      "isCmd": false,
+      "textHash": "b63911ff092f2962e15bd78a8c562edef5ed89f4447843702f603cf8556cf596"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "fontes",
+    "allowJs": true,
+    "noImplicitAny": true
+  },
+  "include": ["fontes/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

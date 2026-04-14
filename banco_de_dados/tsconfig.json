@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": false,
+    "noEmit": true,
+    "types": []
+  },
+  "include": ["src/**/*.js", "scripts/**/*.js", "tests/**/*.js", "config/**/*.json"],
+  "exclude": ["node_modules", "data/session"]
+}
